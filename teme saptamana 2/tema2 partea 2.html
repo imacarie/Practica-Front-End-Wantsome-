@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel</title>
+
+    </head>
+
+        <body>
+            <h1>Travel reservation form</h1>
+            <h5>*denotes mandatory</h5>
+            <form>
+        <label for="Fullname">Full Name*:</label><br>
+        <input type="text" name="nume"placeholder="FirstName LastName"><br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="email" placeholder="EMAIL_ADDRESS"><br>
+
+        <label for="tourp">Select Tour Package*:</label><br>
+        <select name="tourp">
+            <option value="Goa">Goa</option>
+            
+        </select><br>
+
+            <label for="arrivaldate">Arrival Date*:</label><br>
+            <input type="text" name="arrivaldate" id="varsta" placeholder="m/d/y"><br>
+
+            <label for="numberofpersons">Number of persons*:</label><br>
+            <input type="text"name="numberofpersons" placeholder="UNKNOWN_TYPE"><br>
+
+                <label for="avail">What would you want to avail?*</label><br>
+                Boarding<input type="checkbox" name="boarding" value="boarding"><br>
+                Fooding<input type="checkbox" name="fooding" value="fooding"> <br>
+                Sight Seeing<input type="checkbox"name="sightseeing" value="sightseeing"><br>
+                <label for="discountcoupon">Discount Coupon code:</label><br>
+                <input type="text" name="discountcoupon" placeholder="UNKNOWN_TYPE"><br>
+
+                <label for="termsandconditions">Terms and conditions*</label><br>
+                <input type="radio" name="termsandconsitions" checked>I agree
+                <input type="radio" name="termsandconsitions">I disagree
+
+        <br>
+        <br>
+
+    <div>
+        <input type="submit" value="Complete reservation">
+        
+    </div>
+            </form>
+            
+        </body>
+   
+</html>

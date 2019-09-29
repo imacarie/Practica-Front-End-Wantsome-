@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form3</title>
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+            <td colspan="2">
+                <label for="search">Search for:</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="text" name="search" value="chocolate cheesecake recipes">
+                <input type="submit" value="search">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <label for="match">Match:</label>
+            </td>
+            <td>
+                <input type="radio" name="match"> Any word
+                <input type="radio" name="match" checked> All words
+                <input type="radio" name="match"> Exact phrase
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name=checkbox checked>Sound-alike matching
+            </td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <label for="date">Dated:</label>
+            </td>
+            <td>
+                <input type="radio" name="date" value="date">
+                <select name=within>
+                    <option value="Within">Within the last year</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <input type="radio" name="date" value="date" checked>
+                        </td>
+                        <td>
+
+                            <label for="from">From</label>
+                            <select name="month1">
+                                <option value="month1">September</option>
+
+                            </select>
+                            <select name="day">
+                                <option value="day">08</option>
+
+                            </select>,
+                            <input type="number" name="number" value="2009">
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <label for="to">To</label>
+                            <select name="to">
+                                <option value="month2">October</option>
+
+                            </select>
+                            <select name="day">
+                                <option value="day">18</option>
+
+                            </select>,
+                            <input type="number" name="number" value="2011">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+                <label for="within">Within:</label>
+                <select name="description">
+                    <option value="description">Description</option>
+
+                </select><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                <label for="show">Show</label>
+            </td>
+            <td>
+                <select name="number">
+                    <option value="number">10</option>
+                </select>
+                <label for="results">results</label>
+                <select name="with">
+                    <option value="with">with</option>
+                </select>summaries
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+                <label for="sort">Sort by</label>
+                <select name="sort">
+                        <option value="relevance">Relevance</option>
+                    </select>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
