@@ -1,0 +1,23 @@
+div {
+    position: relative;
+    border: 2px solid darkblue
+}
+
+nav {
+    position: absolute;
+    border: 2px solid red;
+    float: left;
+    width: 20%
+}
+
+section {
+    border: 2px solid yellow;
+    float: right;
+    width: 79%;
+    height: 79px
+}
+
+footer {
+    border: 2px solid green;
+    clear: both
+}

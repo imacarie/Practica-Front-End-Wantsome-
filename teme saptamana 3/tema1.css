@@ -1,0 +1,61 @@
+ul li:nth-child(even) {
+    color: darkgreen;
+}
+
+li:nth-child(3) {
+    background: blue;
+    list-style: none
+}
+
+li:nth-child(1) {
+    border-top: 1px solid green
+}
+
+Li:last-child {
+    border-bottom: 5px dotted blue
+}
+
+li:nth-child(5) a {
+    color: red
+}
+
+li:nth-child(3) a {
+    color: red;
+}
+
+li:nth-child(5) a:hover {
+    color: grey
+}
+
+li:nth-child(5) {
+    list-style: none
+}
+
+input:focus {
+    background-color: grey
+}
+
+input:first-child {
+    color: green;
+}
+
+input:nth-child(3) {
+    color: blue
+}
+
+input[type="email"]::selection {
+    color: pink;
+    background-color: yellow;
+}
+
+input[type="password"] {
+    text-indent: -9999px
+}
+
+li :nth-child(2n) {
+    color: green
+}
+
+input[type="submit"]:hover {
+    color: red
+}

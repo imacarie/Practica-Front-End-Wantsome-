@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formular</title>
+    <link rel="stylesheet" href="tema2.css">
+</head>
+
+<body>
+    <form>
+        <label for="Nume">Nume</label><br>
+        <input type="text" name="nume" required><br>
+        <label for="Prenume">Prenume</label><br>
+        <input type="text" name="prenume" required><br>
+
+        <label for="sex">Sex</label><br>
+        <select name="sex" id="sex">
+            <option value="F">F</option>
+            <option value="M">M</option>
+        </select><br>
+
+        <label for="varsta">Varsta</label><br>
+        <input type="number" name="varsta" id="varsta" required="min 18" max="85"><br>
+
+        <label for="tara">Tara</label><br>
+        <input type="text" name="tara" value="Ro"><br>
+        <label for="oras">Oras</label><br>
+        <input type="text" name="oras" value="Is"><br>
+
+        <label for="adresa">Adresa</label><br>
+        <input type="text" name="adresa" value="aleea rozelor"> <br>
+        <label for="codpostal">Cod postal</label><br>
+        <input type="number" name="codpostal"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" required><br>
+
+        <label for="mesaj">Mesaj</label><br>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea><br>
+        <label for="CV">CV</label><br>
+        <input type="file" name="CV">
+
+        <br>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+</body>
+
+</html>

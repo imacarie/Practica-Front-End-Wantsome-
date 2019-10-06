@@ -1,0 +1,6 @@
+img {
+    border: 10px dotted red;
+    padding: 15px;
+    background: lightblue;
+    background-clip: content-box;
+}
