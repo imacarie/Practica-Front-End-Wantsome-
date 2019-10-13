@@ -1,0 +1,121 @@
+        $background-color:#336699;
+        @mixin display {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        
+        // * {
+        //     border: 1px solid;
+        // }
+        header {
+            background-image: url(galaxies.jpg);
+            color: white;
+            height: 200px;
+        }
+        
+        a:link {
+            color: white;
+        }
+        
+        .title {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .subtitle {
+            display: flex;
+            justify-content: center;
+        }
+        
+        li {
+            // color: white;
+            list-style: none;
+            // display: inline-flex;
+        }
+        
+        .lorem {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px
+        }
+        
+        .ipsum {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .ddsfs {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .dogs {
+            background-color: $background-color;
+            @include display();
+            padding: 30px;
+        }
+        
+        .subsubtitle {
+            background-color: $background-color;
+        }
+        
+        .whatever {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .cool {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .all {
+            @include display();
+        }
+        
+        .button {
+            background-color: $background-color;
+            padding: 10px;
+            margin-top: 5%;
+            justify-content: center;
+        }
+        
+        .image {
+            border-radius: 50%;
+        }
+        
+        .diesel {
+            padding: 20px;
+            border: 1px solid white;
+            text-align: center
+        }
+        
+        .bitza {
+            padding: 20px;
+            border: 1px solid white;
+            text-align: center;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .home {
+            margin-left: auto;
+            justify-content: space-between;
+        }
+        
+        .generic {
+            margin-left: 10px;
+        }
+        
+        .elements {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        // .theory {
+        //     justify-content: flex-end;
+        // }
